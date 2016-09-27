@@ -5,7 +5,8 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
-    username: 'michael guo 1991'
+    username: 'michael guo 1991',
+    length: 4
   },
   //事件处理函数
   bindViewTap: function() {
