@@ -4,6 +4,12 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
+  <view>
+    <text>{{username}}</text>
+  </view>
+  <view bindtap="changeText">
+    <text>click to change text</text>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
